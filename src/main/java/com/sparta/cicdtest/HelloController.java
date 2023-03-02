@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     private final HelloService helloService;
     @GetMapping("/")
-    public String getHello() {return "Hello World Pdush!!@@@@!!";}
+    public String getHello() {return "Hello World Pd2ush!!@@@@!!";}
 
     @PostMapping("/")
     public String createHello(@RequestBody String content) {
